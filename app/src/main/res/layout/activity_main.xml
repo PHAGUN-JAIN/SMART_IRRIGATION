@@ -33,7 +33,7 @@
 
         android:layout_margin="10dp"
         android:ems="10"
-        android:hint="current moisture content"
+        android:hint="current moisture content in mm"
         android:inputType="textPersonName" />
 
     <Button
