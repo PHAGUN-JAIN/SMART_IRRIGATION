@@ -21,10 +21,11 @@
          />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        tools:layout_editor_absoluteX="177dp"
-        tools:layout_editor_absoluteY="31dp" />
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="58dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
