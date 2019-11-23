@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
             public void onFinish() {
                 tapState.setText("Tap closed");
-                timeLeft.setText("0");
+                timeLeft.setText("");
                 Toast.makeText(MainActivity.this, "Tap Closed", Toast.LENGTH_SHORT).show();
             }
         }.start();
