@@ -8,12 +8,13 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="406dp"
+        android:layout_width="0dp"
         android:layout_height="66dp"
+        android:layout_marginBottom="10dp"
         android:ems="10"
         android:hint="Crop type"
         android:inputType="textPersonName"
-        android:textColor="#3F51B5"
+        android:textColor="#225C6E"
         app:layout_constraintBottom_toTopOf="@+id/editText2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,32 +23,39 @@
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="401dp"
+        android:layout_width="0dp"
         android:layout_height="72dp"
-        android:layout_marginBottom="404dp"
+        android:layout_marginBottom="10dp"
         android:ems="10"
         android:hint="Soil type"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/editText3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="483dp" />
+        android:layout_marginBottom="88dp"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editText3"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="132dp"
         android:ems="10"
-        android:hint="required moisture content (mm)"
+        android:hint="current moisture content"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="373dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
