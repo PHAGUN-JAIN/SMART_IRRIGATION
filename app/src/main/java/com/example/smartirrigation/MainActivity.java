@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
     public void nextClicked(View view) {
         String cropValue=croptype.getText().toString();
         String soilValue=soiltype.getText().toString();
-        String currentvalue=
 
     }
 }

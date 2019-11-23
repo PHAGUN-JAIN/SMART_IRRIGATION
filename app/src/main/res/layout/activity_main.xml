@@ -7,15 +7,25 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="SMART IRRIGATION"
+
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
     <EditText
         android:id="@+id/crop"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:hint="Crop type"
+        android:hint="Crop type*"
         android:inputType="textPersonName"
-        android:textColor="#225C6E"
-         />
+        android:textColor="#225C6E" />
 
     <EditText
         android:id="@+id/soil"
@@ -23,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:ems="10"
-        android:hint="Soil type"
+        android:hint="Soil type*"
         android:inputType="textPersonName" />
 
     <EditText
@@ -33,17 +43,18 @@
 
         android:layout_margin="10dp"
         android:ems="10"
-        android:hint="current moisture content"
+        android:hint="current moisture content*"
         android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_margin="10dp"
+        android:elevation="50dp"
         android:onClick="nextClicked"
         android:text="NEXT" />
-
 
 
 </LinearLayout>
