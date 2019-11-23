@@ -54,7 +54,8 @@
         android:layout_margin="10dp"
         android:elevation="50dp"
         android:onClick="nextClicked"
-        android:text="NEXT" />
+        android:text="NEXT"
+        android:textColor="#F39E9E" />
 
 
 </LinearLayout>
