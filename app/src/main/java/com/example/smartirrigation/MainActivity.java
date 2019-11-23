@@ -6,8 +6,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+import java.util.HashMap;
+
 public class MainActivity extends AppCompatActivity {
     EditText croptype,soiltype,currentwater;
+
+
+
     HashMap<String,Integer> cropsDatabase=new HashMap<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
